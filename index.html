@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christine Styles</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@300;400;600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top bg-gray-900" aria-label="Main navigation">
+        <div class="container mx-auto px-4">
+            <a class="navbar-brand" href="#">
+                <img src="Christine Styles.png" alt="Christine Styles"
+                    class="navbar-logo h-12 w-auto transition-transform duration-300 hover:scale-105">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon text-amber-600"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto space-x-4">
+                    <li class="nav-item">
+                        <a class="nav-link font-poppins text-gray-300 hover:text-amber-600 transition duration-300"
+                            href="index.html#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-poppins text-gray-300 hover:text-amber-600 transition duration-300"
+                            href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-poppins text-gray-300 hover:text-amber-600 transition duration-300"
+                            href="services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-poppins text-gray-300 hover:text-amber-600 transition duration-300"
+                            href="products.html">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link font-poppins text-gray-300 hover:text-amber-600 transition duration-300"
+                            href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section id="home" class="relative pt-20">
+        <div id="heroCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="slider2.png" class="d-block w-100 object-fit-cover" alt="Jewelry Image 1">
+                </div>
+                <div class="carousel-item">
+                    <img src="slider1.png" class="d-block w-100 object-fit-cover" alt="Jewelry Image 2">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#heroCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#heroCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+
+    <section id="enquiry" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Make an Enquiry</h2>
+            <div class="max-w-lg mx-auto">
+                <p class="text-lg font-poppins text-gray-600 mb-6 text-center">
+                    Curious about a specific piece or need custom jewelry? Contact us to learn more
+                </p>
+                <div class="text-center">
+                    <a href="contact.html"
+                        class="cta-button text-white px-6 py-3 rounded-full font-poppins uppercase font-semibold transition duration-300">Contact
+                        Us</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Our Story</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2 mb-8 md:mb-0">
+                    <img src="about.png" alt="Craftsmanship" class="w-full h-80 object-cover rounded-lg shadow-lg" />
+                </div>
+                <div class="md:w-1/2 md:pl-8">
+                    <p class="text-lg font-poppins text-gray-600">
+                        Christine Styles is dedicated to crafting timeless pieces that celebrate beauty and
+                        individuality, We run a personal shopping business specializing in women's fashion, Accessories
+                         and Jewelry. We source and deliver everything women need from clothing and shoes to unique 
+                         statement pieces making shopping easy, stylish and stress free With a passion for excellence. Christine Styles
+                         combine traditional craftsmanship with modern design to create jewelry that tells a story. 
+                         Each piece is made with the finest materials, ensuring elegance and durability. At Christine Styles, we believe
+                           jewelry should be as unique as the person wearing it
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<section id="collections" class="py-20 bg-white">
+    <div class="container mx-auto px-4">
+        <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Our Services</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+            <div class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="Gold Classics.png" alt="Gold Classics" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h5 class="text-xl font-playfair font-semibold text-gray-800">Gold Classics</h5>
+                    <p class="text-gray-600 font-poppins">Timeless gold necklaces for every occasion</p>
+                    <p class="text-amber-600 font-poppins font-semibold mt-2">$2100</p>
+                    <a href="contact.html" class="cta-button enquire-now" data-tooltip="Services">Enquire Now</a>
+                </div>
+            </div>
+            <div
+                class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="Diamond Eleganc.png" alt="Gold Classics" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h5 class="text-xl font-playfair font-semibold text-gray-800">Gold Classics</h5>
+                    <p class="text-gray-600 font-poppins">Timeless gold necklaces for every occasion</p>
+                    <p class="text-amber-600 font-poppins font-semibold mt-2">$2,500</p>
+                    <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                </div>
+            </div>
+            <div
+                class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="Gemstone Glow.png" alt="Gemstone Glow" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h5 class="text-xl font-playfair font-semibold text-gray-800">Gemstone Glow</h5>
+                    <p class="text-gray-600 font-poppins">Vibrant gemstone earrings to dazzle</p>
+                    <p class="text-amber-600 font-poppins font-semibold mt-2">$1,299</p>
+                    <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                </div>
+            </div>
+            <div
+                class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                <img src="Pearl Perfection.png" alt="Pearl Perfection" class="w-full h-48 object-cover" />
+                <div class="p-4">
+                    <h5 class="text-xl font-playfair font-semibold text-gray-800">Pearl Perfection</h5>
+                    <p class="text-gray-600 font-poppins">Elegant pearl bracelets for sophistication</p>
+                    <p class="text-amber-600 font-poppins font-semibold mt-2">$1,300</p>
+                    <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                </div>
+            </div>
+        </div>
+        <div class="text-center mt-8">
+            <a href="services.html"
+                class="cta-button text-white px-6 py-3 rounded-full font-poppins uppercase font-semibold transition duration-300">Explore
+                All Services</a>
+        </div>
+    </div>
+</section>
+
+
+
+    <section id="products" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Our Products</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Sapphire Pendant.png" alt="Sapphire Pendant" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Sapphire Pendant</h5>
+                        <p class="text-gray-600 font-poppins">A radiant sapphire pendant with a delicate gold chain</p>
+                        <p class="text-amber-600 font-poppins font-semibold mt-2">$1,299.00</p>
+                        <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                    </div>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Emerald Ring.png" alt="Emerald Ring" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Emerald Ring</h5>
+                        <p class="text-gray-600 font-poppins">A stunning emerald ring set in 18k white gold</p>
+                    <p class="text-amber-600 font-poppins font-semibold mt-2">$1,499.00</p>
+                    <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                    </div>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Ruby Earrings.png" alt="Ruby Earrings" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Ruby Earrings</h5>
+                        <p class="text-gray-600 font-poppins">Vibrant ruby earrings with diamond accents</p>
+                        <p class="text-amber-600 font-poppins font-semibold mt-2">$1,399.00</p>
+                        <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                    </div>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Diamond Bracelet.png" alt="Diamond Bracelet" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Diamond Bracelet</h5>
+                        <p class="text-gray-600 font-poppins">A sparkling diamond bracelet for timeless elegance</p>
+                    <p class="text-amber-600 font-poppins font-semibold mt-2">$1,799.00</p>
+                    <a href="contact.html" class="cta-button enquire-now">Enquire Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-8">
+                <a href="products.html"
+                    class="cta-button text-white px-6 py-3 rounded-full font-poppins uppercase font-semibold transition duration-300">View
+                    All Products</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="featured" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Featured Collections</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Diamond Solitaire Necklace.png" alt="Featured Item 1" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Diamond Solitaire Necklace</h5>
+                        <p class="text-gray-600 font-poppins">A timeless piece for any occasion</p>
+                        <a href="contact.html" class="text-amber-600 font-poppins mt-2 inline-block">Shop Now</a>
+                    </div>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Emerald Drop Earrings.png" alt="Featured Item 2" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Emerald Drop Earrings</h5>
+                        <p class="text-gray-600 font-poppins">Elegance in every detail</p>
+                        <a href="contact.html" class="text-amber-600 font-poppins mt-2 inline-block">Shop Now</a>
+                    </div>
+                </div>
+                <div
+                    class="bg-white rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition duration-300">
+                    <img src="Gold Bangle Set.png" alt="Featured Item 3" class="w-full h-64 object-cover" />
+                    <div class="p-4">
+                        <h5 class="text-xl font-playfair font-semibold text-gray-800">Gold Bangle Set</h5>
+                        <p class="text-gray-600 font-poppins">Perfect for stacking or solo wear</p>
+                        <a href="contact.html" class="text-amber-600 font-poppins mt-2 inline-block">Shop Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="galleries" class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Our Gallery</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ga1.jpg" alt="Gallery Image 1"
+                        class="w-full h-64 object-cover hover:opacity-90 transition duration-300" />
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ga2.jpg" alt="Gallery Image 2"
+                        class="w-full h-64 object-cover hover:opacity-90 transition duration-300" />
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ga3.jpg" alt="Gallery Image 3"
+                        class="w-full h-64 object-cover hover:opacity-90 transition duration-300" />
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ga09.jpg" alt="Gallery Image 3"
+                        class="w-full h-64 object-cover hover:opacity-90 transition duration-300" />
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ga10.jpg" alt="Gallery Image 3"
+                        class="w-full h-64 object-cover hover:opacity-90 transition duration-300" />
+                </div>
+                <div class="rounded-lg overflow-hidden shadow-lg">
+                    <img src="ga4.png" alt="Gallery Image 4"
+                        class="w-full h-64 object-cover hover:opacity-90 transition duration-300" />
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="py-20 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">What Our Customers Say</h2>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="text-center max-w-2xl mx-auto">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="text-lg font-poppins text-gray-600 italic mb-4">"The sapphire pendant I purchased
+                                is absolutely stunning! The craftsmanship is impeccable, and it’s become my favorite
+                                piece to wear daily"</p>
+                            <h5 class="text-xl font-playfair font-semibold text-gray-800">Emmanuel Simon</h5>
+                            <p class="text-gray-500 font-poppins">Fashion Blogger</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center max-w-2xl mx-auto">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="text-lg font-poppins text-gray-600 italic mb-4">"Christine Styles created a custom
+                                ring for my engagement, and it was beyond my expectations. Truly a work of art!"</p>
+                            <h5 class="text-xl font-playfair font-semibold text-gray-800">James Leonard</h5>
+                            <p class="text-gray-500 font-poppins">Entrepreneur</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center max-w-2xl mx-auto">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="text-lg font-poppins text-gray-600 italic mb-4">"The pearl bracelet I bought is
+                                elegant and perfect for any occasion. I’ve received so many compliments!"</p>
+                            <h5 class="text-xl font-playfair font-semibold text-gray-800">Sophia Wright</h5>
+                            <p class="text-gray-500 font-poppins">Jewelry Enthusiast</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="text-center max-w-2xl mx-auto">
+                            <i class="fas fa-quote-left quote-icon"></i>
+                            <p class="text-lg font-poppins text-gray-600 italic mb-4">"The team at Christine Styles is
+                                incredible. They helped me find the perfect gift, and the quality is unmatched"</p>
+                            <h5 class="text-xl font-playfair font-semibold text-gray-800">Olivia R.</h5>
+                            <p class="text-gray-500 font-poppins">Banker</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section id="statistics" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-4xl font-playfair font-bold text-center text-gray-800 mb-12">Our Achievements</h2>
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 text-center">
+                <div class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                    <h3 class="text-3xl font-playfair font-bold text-amber-600 mb-2" data-count="300">0+</h3>
+                    <p class="text-gray-600 font-poppins">Unique Designs Crafted</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                    <h3 class="text-3xl font-playfair font-bold text-amber-600 mb-2" data-count="15">0+</h3>
+                    <p class="text-gray-600 font-poppins">Years of Expertise</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                    <h3 class="text-3xl font-playfair font-bold text-amber-600 mb-2" data-count="10000">0+</h3>
+                    <p class="text-gray-600 font-poppins">Happy Customers</p>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg p-6 transform hover:scale-105 transition duration-300">
+                    <h3 class="text-3xl font-playfair font-bold text-amber-600 mb-2" data-count="15">0+</h3>
+                    <p class="text-gray-600 font-poppins">Global Awards Won</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-900 text-gray-300 py-12">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <img src="Christine Styles.png" alt="Christine Styles Logo"
+                        class="h-12 w-auto mb-4 transition-transform duration-300 hover:scale-105" />
+                    <p class="font-poppins text-sm">
+                        Christine Styles offers exquisite jewelry crafted with passion and precision. Discover elegance
+                        that lasts a lifetime. Each piece is designed to capture timeless beauty while reflecting your
+                        unique style. With Christine Styles, you don’t just wear jewelry—you wear a story
+                    </p>
+                </div>
+                <div class="footer-column nav-links">
+                    <h4 class="text-lg font-playfair font-bold text-amber-600 mb-4">Menu Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="index.html#home" class="text-gray-300 hover:text-amber-600">Home</a></li>
+                        <li><a href="about.html" class="text-gray-300 hover:text-amber-600">About</a></li>
+                        <li><a href="services.html" class="text-gray-300 hover:text-amber-600">Services</a></li>
+                        <li><a href="products.html" class="text-gray-300 hover:text-amber-600">Products</a></li>
+                        <li><a href="contact.html" class="text-gray-300 hover:text-amber-600">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column nav-links">
+                    <h4 class="text-lg font-playfair font-bold text-amber-600 mb-4">Resource Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="terms.html" class="text-gray-300 hover:text-amber-600">Terms and Conditions</a>
+                        </li>
+                        <li><a href="privacy.html" class="text-gray-300 hover:text-amber-600">Privacy Policy</a></li>
+                        <li><a href="cookies.html" class="text-gray-300 hover:text-amber-600">Cookies Policy</a></li>
+                    </ul>
+                </div>
+
+            </div>
+            <div class="text-center mt-8 border-t border-gray-700 pt-4">
+                <p class="font-poppins text-sm">&copy; 2025 Christine Styles. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#home"
+        class="fixed bottom-20 right-5 bg-amber-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105 back-to-top">
+        <i class="fas fa-arrow-up text-xl"></i>
+    </a>
+
+    <a href="https://wa.me/+61410197358" target="_blank"
+        class="fixed bottom-5 right-5 bg-amber-600 text-white w-12 h-12 rounded-full flex items-center justify-center shadow-lg hover:bg-amber-700 transition duration-300 transform hover:scale-105 whatsapp-button">
+        <i class="fab fa-whatsapp text-xl"></i>
+    </a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
